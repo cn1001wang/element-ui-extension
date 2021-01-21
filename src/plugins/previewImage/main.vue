@@ -1,7 +1,7 @@
 <!--  -->
 <template>
   <el-image
-    class="preview-image"
+    style="display:none;"
     ref="image"
     :src="src"
     :preview-src-list="previewSrcList"
@@ -23,9 +23,3 @@ export default {
   }
 };
 </script>
-
-<style>
-.preview-image .el-image__inner {
-  display: none;
-}
-</style>

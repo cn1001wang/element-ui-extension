@@ -6,7 +6,9 @@
 </template>
 
 <script>
-import { previewImage } from "@/plugins";
+import { previewImage } from "ele-extension";
+// import "ele-extension/lib/eleExtension.css";
+// import { previewImage } from "@/plugins";
 export default {
   data() {
     return {};

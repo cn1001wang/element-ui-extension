@@ -1,6 +1,6 @@
 {
   "name": "ele-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Ray Wang",
     "email": "cn1001wang@gmail.com"
@@ -18,9 +18,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "vue-cli-service build --target lib --name eleExtension --dest lib src/plugins/index.js" 
+    "start": "vue-cli-service build --target lib --name eleExtension --dest lib src/plugins/index.js"
   },
-  "files":[
+  "files": [
     "lib/",
     "README.md",
     "LICENSE",
@@ -32,6 +32,7 @@
   "unpkg": "lib/eleExtension.umd.js",
   "dependencies": {
     "core-js": "^3.6.5",
+    "ele-extension": "0.1.1",
     "element-ui": "^2.3.6",
     "vue": "^2.6.11"
   },
