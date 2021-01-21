@@ -1,14 +1,25 @@
 {
   "name": "ele-extension",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "vue-cli-service build --target lib --name eleExtension --dest lib src/plugins/index.js" 
   },
+  "files":[
+    "lib/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "main": "lib/eleExtension.umd.js",
+  "module": "lib/eleExtension.common.js",
+  "jsdelivr": "lib/eleExtension.umd.js",
+  "unpkg": "lib/eleExtension.umd.js",
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.3.6",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -24,6 +35,7 @@
     "prettier": "^1.19.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
+    "vue-cli-plugin-element-ui": "~1.1.4",
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
