@@ -1,6 +1,19 @@
 {
   "name": "ele-extension",
   "version": "0.1.0",
+  "author": {
+    "name": "Ray Wang",
+    "email": "cn1001wang@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "element-ui",
+    "preview-image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cn1001wang/element-ui-extension.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
