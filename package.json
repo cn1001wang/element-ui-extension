@@ -1,6 +1,6 @@
 {
   "name": "ele-extension",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Ray Wang",
     "email": "cn1001wang@gmail.com"
@@ -32,8 +32,8 @@
   "unpkg": "lib/eleExtension.umd.js",
   "dependencies": {
     "core-js": "^3.6.5",
-    "ele-extension": "0.1.1",
-    "element-ui": "^2.3.6",
+    "ele-extension": "^0.1.2",
+    "element-ui": "^2.13.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {

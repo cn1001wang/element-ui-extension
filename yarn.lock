@@ -3366,6 +3366,16 @@ ele-extension@0.1.1, ele-extension@^0.1.0:
     element-ui "^2.3.6"
     vue "^2.6.11"
 
+ele-extension@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/ele-extension/-/ele-extension-0.1.2.tgz#de1efa586135e0a62c7d41e8e39eb72cf2ffdbea"
+  integrity sha512-ASDHp6WZjbH0D/jWLaIn8vohXydnMOIL9Wm2XCU8z2ppxQC66oQWVdjxQXKnTtF/AuPhxwualgrcpXgyJiep9Q==
+  dependencies:
+    core-js "^3.6.5"
+    ele-extension "0.1.1"
+    element-ui "2.13.2"
+    vue "^2.6.11"
+
 electron-to-chromium@^1.3.634:
   version "1.3.642"
   resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.642.tgz#8b884f50296c2ae2a9997f024d0e3e57facc2b94"
@@ -3376,7 +3386,19 @@ elegant-spinner@^1.0.1:
   resolved "https://registry.npm.taobao.org/elegant-spinner/download/elegant-spinner-1.0.1.tgz#db043521c95d7e303fd8f345bedc3349cfb0729e"
   integrity sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4=
 
-element-ui@^2.3.6:
+element-ui@2.13.2:
+  version "2.13.2"
+  resolved "https://registry.npmjs.org/element-ui/-/element-ui-2.13.2.tgz#582bf47aaaaaafe23ea1958fae217a687ad06447"
+  integrity sha512-r761DRPssMPKDiJZWFlG+4e4vr0cRG/atKr3Eqr8Xi0tQMNbtmYU1QXvFnKiFPFFGkgJ6zS6ASkG+sellcoHlQ==
+  dependencies:
+    async-validator "~1.8.1"
+    babel-helper-vue-jsx-merge-props "^2.0.0"
+    deepmerge "^1.2.0"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.0"
+    throttle-debounce "^1.0.1"
+
+element-ui@^2.13.2, element-ui@^2.3.6:
   version "2.15.0"
   resolved "https://registry.npm.taobao.org/element-ui/download/element-ui-2.15.0.tgz?cache=0&sync_timestamp=1610711009945&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Felement-ui%2Fdownload%2Felement-ui-2.15.0.tgz#de9b73a8d1e3e3b50e82b923a5fa95295239bd41"
   integrity sha1-3ptzqNHj47UOgrkjpfqVKVI5vUE=
