@@ -23,5 +23,8 @@ function previewImage(url, list) {
       }
     }
   );
+  return function close() {
+    instance.$refs.image.showViewer = false;
+  };
 }
 export default previewImage;
