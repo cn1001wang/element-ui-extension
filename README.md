@@ -20,11 +20,12 @@ var list = [
   "https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg",
   "https://fuss10.elemecdn.com/0/6f/e35ff375812e6b0020b6b4e8f9583jpeg.jpeg"
 ];
-let close = previewImage(list[0], list);
+let close = previewImage(list[0], list, {className:"customer-image"});
 close();
  ```
 
 ## 更新日志
 
+ > 0.1.4 增加ops配置，支持传入className用于定制样式
  > 0.1.3 增加**close**方法
  > 0.1.2 element-ui的2.13.2版本中`<el-image/>` 生成的`<image-viewer/>` 组件没有appendToBody属性 直接写style在image上会导致整个都被隐藏，改为额外引入css的方式

@@ -1,7 +1,7 @@
 <!--  -->
 <template>
   <el-image
-    class="ee-preview_image"
+    :class="['ee-preview_image', className]"
     ref="image"
     :src="src"
     :preview-src-list="previewSrcList"
@@ -13,7 +13,8 @@ export default {
   data() {
     return {
       src: "",
-      previewSrcList: []
+      previewSrcList: [],
+      className: ""
     };
   },
   methods: {
